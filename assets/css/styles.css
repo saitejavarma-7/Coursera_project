@@ -1,0 +1,88 @@
+#top {
+  background-color: #c2b883;
+  border-radius: 55px;
+  border-color: white;
+}
+
+@media (max-width: 576px) {
+  #name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    /*text-align: left;*/
+    margin-left: -10px;
+    font-size: x-large;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #about {
+    font-size: large;
+    padding-top: 2%;
+  }
+}
+
+@media (min-width: 992px) {
+  #top {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+#body {
+  background-color: rgba(181,228,174,0.85);
+}
+
+top img {
+  vertical-align: middle;
+  border-style: none;
+  float: left;
+  width: 30%;
+  height: 20%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.hob {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*justify-content: center;*/
+}
+
+#footerpad {
+  border-radius: 25px 25px 0px 0px;
+}
+
+@media (max-width: 768px) {
+  #footerpad {
+    border-radius: 0;
+    width: initial;
+    margin: 0;
+    padding: 5px 0 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #music {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 400px) {
+  #footerpad {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
